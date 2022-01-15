@@ -31,6 +31,8 @@ Start services:
 docker-compose up -d
 ```
 
+NOTE: It will compile PHP image, it will take some time. There are no non-default symfony's required extensions. Nginx and php services could be commented out, and [Symfony Local Web Server](https://symfony.com/doc/current/setup/symfony_server.html) be used instead if prefferable.
+
 Project setup:
 
 ```
