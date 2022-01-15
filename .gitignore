@@ -1,0 +1,16 @@
+/.env.local
+/.env.local.php
+/.env.*.local
+/public/bundles/
+/var/
+/vendor/
+
+!/var/cache/.gitkeep
+!/var/log/.gitkeep
+
+.phpunit.result.cache
+/phpunit.xml
+###> squizlabs/php_codesniffer ###
+/.phpcs-cache
+/phpcs.xml
+###< squizlabs/php_codesniffer ###
