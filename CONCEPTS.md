@@ -170,7 +170,7 @@ Pros:
 
 Cons:
 - **Database complexity increases**
-- **Quite statick cache**
+- **Quite static cache**
 - Very likely application becomes more coupled to the selected RDBMS
 
 
@@ -188,7 +188,7 @@ Pros:
 
 Cons:
 - More logics in the application level
-- More dependencies to maintain (cache layer if third cache provider is used)
+- More dependencies to maintain (cache layer - if third cache provider is used)
 
 ## Summary
 
@@ -205,7 +205,7 @@ For DEMO purposes file cache will be used, in production some key=>value cache p
 - redis
 - etc.
 
-Easy changeable, by changing symfony's config to anything it supports (e.g. c).
+Easy changeable, by changing symfony's config to anything it supports
 - https://symfony.com/doc/current/cache.html#configuring-cache-with-frameworkbundle
 
 ## Further points for improvements

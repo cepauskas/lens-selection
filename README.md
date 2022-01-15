@@ -23,9 +23,10 @@ Short task analysis and more detailed choosen solution can be found in [Concetps
 
 ### Startup
 
-For development server and dependencies were loaded over docker.
+Server and dependencies for development were loaded over docker.
 
 Start services:
+
 ```
 docker-compose up -d
 ```
@@ -64,7 +65,7 @@ Fixtures ("small" group) contains own sample data:
 php bin/phpunit
 ```
 
-For simulating expected amount of attributes/values/products there is additional "large" group fixture.
+For simulating expected amount (SQL query checkup) of attributes/values/products there is additional "large" group fixture. Tests are not using it.
 
 ### Api usage examples
 
